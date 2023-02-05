@@ -8,10 +8,10 @@ function Title() {
         <>
         <div className="Title">
             <h1>SFPOPOS</h1>
-        </div><div className="Title-Subtitle">
+            <div className="Title-Subtitle">
                 <h2>San Franciscos Privately Owned Public Spaces</h2>
-                <img src={logo} />
             </div>
+        </div>
         </>
     )
 }
