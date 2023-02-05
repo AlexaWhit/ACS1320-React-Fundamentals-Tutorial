@@ -1,9 +1,11 @@
+import React from "react";
 import './POPOSSpace.css';
-import { Link } from 'react-router-dom'
+import { Link } from 'react-router-dom';
+
 // Props is always an object!
 // Props are used to configure your components
 function POPOSSpace(props) {
-	const { name, image, address, hours, id } = props
+	const { name, image, address, hours, id } = props;
   return (
     <div className="POPOSSpace">
       <h1>

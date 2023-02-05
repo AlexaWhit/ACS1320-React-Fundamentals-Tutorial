@@ -1,7 +1,6 @@
-
 import React from 'react';
 //import ReactDOM from 'react-dom/client';
-import {createRoot} from 'react-dom/client'
+import { createRoot } from 'react-dom/client'
 import './index.css';
 import App from './App';
 import POPOSList from './POPOSList';
@@ -22,7 +21,7 @@ root.render(
         <Route path="/details/:id" element={<POPOSDetails />} />
       </Route>
     </Routes>
-  </Router>,
+  </Router>
   //document.getElementById('root')
 );
 
