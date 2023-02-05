@@ -7,3 +7,9 @@
     width: 100%;
     height: auto;
 }
+
+.hours {
+    font-style: italic;
+    font-size: larger;
+    color: rgba(174, 8, 108, 0.75);
+}
