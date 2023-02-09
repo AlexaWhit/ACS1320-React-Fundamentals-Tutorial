@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/AlexaWhit/ACS1320-React-Fundamentals-Tutorial/static/css/main.d255a9ac.css",
-    "main.js": "/AlexaWhit/ACS1320-React-Fundamentals-Tutorial/static/js/main.dde9775f.js",
-    "static/js/787.9ad95fba.chunk.js": "/AlexaWhit/ACS1320-React-Fundamentals-Tutorial/static/js/787.9ad95fba.chunk.js",
-    "index.html": "/AlexaWhit/ACS1320-React-Fundamentals-Tutorial/index.html",
-    "main.d255a9ac.css.map": "/AlexaWhit/ACS1320-React-Fundamentals-Tutorial/static/css/main.d255a9ac.css.map",
-    "main.dde9775f.js.map": "/AlexaWhit/ACS1320-React-Fundamentals-Tutorial/static/js/main.dde9775f.js.map",
-    "787.9ad95fba.chunk.js.map": "/AlexaWhit/ACS1320-React-Fundamentals-Tutorial/static/js/787.9ad95fba.chunk.js.map"
+    "main.css": "/ACS1320-React-Fundamentals-Tutorial/static/css/main.d255a9ac.css",
+    "main.js": "/ACS1320-React-Fundamentals-Tutorial/static/js/main.15536ecd.js",
+    "static/js/787.9ad95fba.chunk.js": "/ACS1320-React-Fundamentals-Tutorial/static/js/787.9ad95fba.chunk.js",
+    "index.html": "/ACS1320-React-Fundamentals-Tutorial/index.html",
+    "main.d255a9ac.css.map": "/ACS1320-React-Fundamentals-Tutorial/static/css/main.d255a9ac.css.map",
+    "main.15536ecd.js.map": "/ACS1320-React-Fundamentals-Tutorial/static/js/main.15536ecd.js.map",
+    "787.9ad95fba.chunk.js.map": "/ACS1320-React-Fundamentals-Tutorial/static/js/787.9ad95fba.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.d255a9ac.css",
-    "static/js/main.dde9775f.js"
+    "static/js/main.15536ecd.js"
   ]
 }
