@@ -2,7 +2,7 @@
     "name": "sfpopos",
     "version": "0.1.0",
     "private": true,
-    "homepage": "http://github.com/AlexaWhit/ACS1320-React-Fundamentals-Tutorial",
+    "homepage": "https://alexawhit.github.io/ACS1320-React-Fundamentals-Tutorial/",
     "dependencies": {
         "@testing-library/jest-dom": "^5.16.5",
         "@testing-library/react": "^13.4.0",

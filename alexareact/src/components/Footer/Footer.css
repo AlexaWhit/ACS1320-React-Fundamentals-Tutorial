@@ -1,5 +1,6 @@
 .Footer {
-    display: block;
+    display: flex;
+    box-sizing: border-box;
     color: rgb(244, 50, 147);
     font-weight: bold;
     justify-content: center;
