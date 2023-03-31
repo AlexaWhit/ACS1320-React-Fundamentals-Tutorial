@@ -7,10 +7,9 @@ A tutorial creating a React app of POPOS spaces in San Francisco which provided 
 
 
 ## Screenshots
-![Screen Shot 2023-02-09 at 9 42 57 AM](https://user-images.githubusercontent.com/112434021/217880589-ddc06ffa-e8da-4da7-a183-eda98b166b22.png)
 
-![Screen Shot 2023-02-09 at 9 42 46 AM](https://user-images.githubusercontent.com/112434021/217880602-ce1e61bb-b359-4ad0-bde5-dfb1fe20463e.png)
-
+src/images/DetailsPage.jpg
+src/images/DetailsPage.jpg
 
 
 ## Features
@@ -34,6 +33,7 @@ The react app will open automatically in a browser.
 ## Support
 
 For support, email alexa.whitney@students.dominican.edu
+
 
 ## Outline
 - SFPOPOS
@@ -117,6 +117,5 @@ For support, email alexa.whitney@students.dominican.edu
         2. The Martinez family should find detailed information, photographs, and visitor reviews for each POPOS to help them choose the most suitable locations.
         3. The Martinez family should be able to create a custom itinerary or save a list of POPOS for their day out. 
         4. The Martinez family should find information on nearby family-friendly restaurants or cafes to visit during their trip (MAYBE)
-
 
 
