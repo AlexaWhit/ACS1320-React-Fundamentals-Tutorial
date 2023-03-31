@@ -4,8 +4,8 @@
 A tutorial creating a React app of POPOS spaces in San Francisco which provided an introduction to fundamental React concepts.
 
 ## Screenshots
-![](public/details.png)
-![](public/main.png)
+![](alexareact/public/details.png)
+![](alexareact/public/main.png)
 
 ## Features
 
