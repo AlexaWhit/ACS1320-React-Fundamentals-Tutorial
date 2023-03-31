@@ -8,8 +8,8 @@ A tutorial creating a React app of POPOS spaces in San Francisco which provided 
 
 ## Screenshots
 
-src/images/DetailsPage.jpg
-src/images/DetailsPage.jpg
+https://tinypic.host/i/I1tqk
+https://tinypic.host/i/IqMkJ
 
 
 ## Features
