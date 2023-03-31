@@ -44,11 +44,18 @@ For support, email alexa.whitney@students.dominican.edu
         - Nav
             - NavLink: List
             - NavLink: About
-        - Button Show me a random space
-        - Input: Search public spaces
+        - Button 
+            - RandomSpace: Show me a random space
+        - Input
+            - Search public spaces by title and address
+            - Button: Submit
         - Content
-            - Card
-        - Footer: Alexa Whitney © 2023 alexa.whitney@students.dominican.edu
+            - Spaces Card
+                -  Image (class "POPOSDetails-image")
+                -  Title (class "POPOSDetails-title")
+                -  Address (class "POPOSSpace-info")
+                -  Hours (class "hours" or also under "POPOSSpace-info")
+        - Footer: Alexa Whitney © 2023 alexa.whitney@students.dominican.edu (class "Footer")
     - About
         - Header
             - Page Title: SFPOPOS
@@ -56,6 +63,8 @@ For support, email alexa.whitney@students.dominican.edu
         - Nav
             - NavLink: List
             - NavLink: About
+        - Button 
+            - RandomSpace: Show me a random space
         - Content
             - Page Title: About SFPOPOS
             - Paragraph: Description of site
@@ -68,13 +77,15 @@ For support, email alexa.whitney@students.dominican.edu
         - Nav
             - NavLink: List
             - NavLink: About
+        - Button 
+            - RandomSpace: Show me a random space
         - Content
             - Page Title: Name of POPOS Site (class "POPOSdetails-title")
-            - Paragraph: Description of site
-            - Paragraph: Hours of Operation
-            - Paragraph: Emojis of attributes
-            - Paragraph: Latitude and Longitude coordinates
-            - Image: Image of one of the SFPOPOS spaces
+            - Paragraph: Description of site (class "POPOSdetails-desc")
+            - Paragraph: Hours of Operation (class "POPOSdetails-hours")
+            - Paragraph: Emojis of features (POPOSFeatureList component)
+            - Paragraph: Latitude and Longitude coordinates (class "POPOSdetails-geo")
+            - Image: Image of one of the SFPOPOS spaces (class "POPOSdetails-image")
         - Footer: Alexa Whitney © 2023 alexa.whitney@students.dominican.edu
 
 ## User Stories
