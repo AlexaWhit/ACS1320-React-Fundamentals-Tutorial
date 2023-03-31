@@ -4,20 +4,11 @@
 A tutorial creating a React app of POPOS spaces in San Francisco which provided an introduction to fundamental React concepts.
 
 
-
-
-## Screenshots
-
-https://tinypic.host/i/I1tqk
-https://tinypic.host/i/IqMkJ
-
-
 ## Features
 
 - Components
 - Routes from react-router-dom
 - JSON data
-
 
 
 ## Run Locally
@@ -118,4 +109,6 @@ For support, email alexa.whitney@students.dominican.edu
         3. The Martinez family should be able to create a custom itinerary or save a list of POPOS for their day out. 
         4. The Martinez family should find information on nearby family-friendly restaurants or cafes to visit during their trip (MAYBE)
 
+### Wireframe
 
+Please visit https://www.figma.com/file/5D1cTZormuYcgEHshWBEnf/SFPOPOS-Wireframe-Homework?node-id=0%3A1&t=gItJl4kY1Ya9SOo8-1
