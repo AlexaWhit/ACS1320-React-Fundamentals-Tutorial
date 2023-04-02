@@ -86,6 +86,40 @@ Please visit https://www.figma.com/file/5D1cTZormuYcgEHshWBEnf/SFPOPOS-Wireframe
             - Paragraph: Latitude and Longitude coordinates (class "POPOSdetails-geo")
             - Image: Image of one of the SFPOPOS spaces (class "POPOSdetails-image")
         - Footer: Alexa Whitney © 2023 alexa.whitney@students.dominican.edu
+    - Register
+        - Header
+            - Page Title: SFPOPOS
+            - Sub Title: San Francisco Privately Owned Public Open Spaces
+        - Nav
+            - NavLink: List
+            - NavLink: About
+        - Button 
+            - RandomSpace: Show me a random space
+        - Content
+            - Page Title: Register Here for the SFPOPOS Newsletter
+            - Registration Form
+                - Paragraph: First Name
+                    - Input field
+                - Paragraph: Last Name
+                    - Input field
+                - Paragraph: Email
+                    - Input field
+                - Paragraph: Postal Code
+                    - Input field
+                - Paragraph: How do you plan to use SFPOPOS (select all that apply):
+                    - Checkbox: Meeting space
+                    - Checkbox: Hangout spot
+                    - Checkbox: Workspace
+                    - Checkbox: Date spot
+                    - Checkbox: Tourist attraction
+                    - Checkbox: Business destination
+                    - Checkbox: Quiet place to read/study
+                    - Checkbox: Outdoor spaces
+                    - Checkbox: Art installations
+                    - Checkbox: Scenic views
+            - Button: Submit
+            - Image: Undecided Content (TBD)
+        - Footer: Alexa Whitney © 2023 alexa.whitney@students.dominican.edu
 
 ## User Stories
 ### User Story 1: Solo-Traveler Phoebe
