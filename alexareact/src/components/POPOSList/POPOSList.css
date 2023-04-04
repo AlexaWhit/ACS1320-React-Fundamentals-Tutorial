@@ -11,6 +11,7 @@
 @media screen and (max-width: 960px) {
 	.POPOSList {
 		grid-template-columns: 1fr 1fr;
+		grid-gap: 1em;
 	}
 }
 
@@ -22,14 +23,6 @@
 	.POPOSList {
 		grid-template-columns: 1fr;
 	}
-	/* .POPOSList form input, .POPOSList form button {
-		padding: 0.5em;
-		font-size: 0.8rem;
-		width: 70%;
-	}
-	.POPOSList form button {
-		width: 30%;
-	} */
 }
 
 .POPOSList form {

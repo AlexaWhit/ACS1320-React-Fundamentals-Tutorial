@@ -22,7 +22,7 @@ function Title() {
             className={({ isActive }) => isActive ? "nav-link-active" : "nav-link"}
             to="/register">Register
           </NavLink>
-          <RandomSpace />
+          <RandomSpace className="random-space"/>
         </div>
 
       </header>

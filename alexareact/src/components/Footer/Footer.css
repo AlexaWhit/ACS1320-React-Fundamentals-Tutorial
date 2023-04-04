@@ -1,9 +1,62 @@
 .Footer {
     display: flex;
     box-sizing: border-box;
-    color: rgb(244, 50, 147);
+    color: rgb(2, 60, 15);
     font-weight: bold;
     justify-content: center;
     align-items: baseline;
-    padding: 2em;
+    padding: .1em;
+    background-color: rgb(5, 161, 26);
+}
+
+.Footer p {
+    margin-bottom: .2em 10px;
+    padding: 10px;
+    font-size: 1em;
+}
+
+/* Smaller screens and tablets */
+@media screen and (max-width: 960px) {
+    .Footer {
+      background-color: lime;
+      flex-direction: column;
+      align-items: center;
+      text-align: center;
+      position: relative;
+      bottom: 0;
+      left: 0;
+      width: 100%;
+      height: auto;
+      padding: .2em;
+    }
+  
+    .Footer p {
+      font-size: 0.8em;
+    }
+  }
+  
+  /* Small screens mobile on iphoneXR and Samsung Galaxy S20 Ultra work */
+@media screen and (max-width: 480px) {
+    .Footer {
+      background-color: lime;
+      flex-direction: column;
+      align-items: center;
+      text-align: center;
+      position: relative;
+      bottom: 0;
+      left: 0;
+      width: 100%;
+      height: auto;
+      padding: 2px;
+    }
+  
+    .Footer p {
+      font-size: 0.6em;
+      margin-bottom: 0.2em;
+      padding: 0;
+    }
+
+    .Footer p:nth-of-type(2) {
+        margin-top: 0.2em;
+    }
 }
