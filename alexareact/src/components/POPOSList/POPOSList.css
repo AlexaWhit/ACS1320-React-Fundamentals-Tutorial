@@ -4,7 +4,7 @@
 	grid-gap: 2em;
 	max-width: 1200px;
 	margin: auto;
-	padding: 2em;
+	padding: 1em;
 }
 
 /* Smaller screens and tablets */
@@ -28,6 +28,7 @@
 .POPOSList form {
 	display: flex;
 	align-items: flex-start;
+	width: 100%;
 }
 
 .POPOSList form input, .POPOSList form button {
