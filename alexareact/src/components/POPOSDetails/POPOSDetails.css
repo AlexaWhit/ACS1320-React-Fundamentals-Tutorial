@@ -1,29 +1,81 @@
 .POPOSDetails {
 	display: flex;
 	flex-direction: row-reverse;
+	justify-content: center;
 	width: 960px;
 	margin: auto;
-}
-
-.POPOSDetails .POPOSDetails-info {
+  }
+  
+  .POPOSDetails .POPOSDetails-info {
 	flex: 1;
 	text-align: left;
 	padding: 0 1em;
-}
-
-.POPOSDetails .POPOSDetails-title {
+	order: -1;
+  }
+  
+  .POPOSDetails .POPOSDetails-title {
 	font-size: 2em;
 	margin: 0;
-}
-
-.POPOSDetails .POPOSDetails-image {
+  }
+  
+  .POPOSDetails .POPOSDetails-image {
 	flex: 2;
-}
-
-.POPOSDetails .POPOSDetails-image img {
+  }
+  
+  .POPOSDetails .POPOSDetails-image img {
 	width: 100%;
-}
-
-.POPOSDetails .POPOSDetails-hours {
-	font-size: 1.5em;
-}
+	max-height: 500px;
+	padding-bottom: 3rem;
+  }
+  
+  /* Smaller screens and tablets */
+  @media screen and (max-width: 800px) {
+	.POPOSDetails {
+	  display: flex;
+	  flex-direction: column;
+	  justify-content: center;
+	  align-items: center;
+	  max-width: 100%;
+	}
+	.POPOSDetails .POPOSDetails-image img {
+	  max-width: 100%;
+	  max-height: 300px;
+	  height: auto;
+	  display: block;
+	  margin-right: 1rem;
+	}
+	.POPOSDetails-info {
+	  display: flex;
+	  flex-direction: column;
+	  align-items: center;
+	  max-width: 100%;
+	  order: 0;
+	}
+  }
+  
+  /* Small screens mobile */
+  @media only screen and (max-width: 480px) {
+	.POPOSDetails {
+	  display: flex;
+	  flex-direction: column;
+	  justify-content: center;
+	  align-items: center;
+	  max-width: 100%;
+	}
+	.POPOSDetails .POPOSDetails-image img {
+	  max-width: 100%;
+	  max-height: 350px;
+	  height: auto;
+	  display: block;
+	  margin-right: 1rem;
+	  padding-bottom: 10px;
+	}
+	.POPOSDetails-info {
+	  display: flex;
+	  flex-direction: column;
+	  align-items: center;
+	  text-align: center;
+	  max-width: 100%;
+	}
+  }
+  
