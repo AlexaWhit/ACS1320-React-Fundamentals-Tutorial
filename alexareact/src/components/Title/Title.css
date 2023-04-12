@@ -49,9 +49,6 @@
 
 /* Small screens mobile */
 @media screen and (max-width: 480px) {
-  body {
-		background-color: aqua;
-	}
   .Title {
     flex-wrap: wrap;
     width: 100%;
@@ -61,9 +58,6 @@
 
 /* Small screens mobile */
 @media screen and (max-width: 300px) {
-  body {
-		background-color: aqua;
-	}
   .Title {
     flex-wrap: wrap;
     width: 100%;

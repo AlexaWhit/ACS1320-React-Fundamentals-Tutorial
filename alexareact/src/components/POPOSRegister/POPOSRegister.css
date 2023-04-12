@@ -1,0 +1,128 @@
+.container {
+  display: grid;
+  grid-gap: 2em;
+  grid-template-columns: 1fr 1fr;
+  padding: 1rem;
+  max-width: 1500px;
+  margin: 2em auto;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  padding: 1rem;
+  max-width: 750px;
+  align-items: center;
+}
+
+label {
+  margin: 10px;
+}
+
+.checkbox-grid {
+  display: grid;
+  grid-gap: 2em;
+  grid-template-columns: 1fr 1fr;
+  padding: 1rem;
+  max-width: 1500px;
+  margin: 2em auto;
+}
+
+.checklist-one,
+.checklist-two {
+  display: flex;
+  flex-direction: column;
+}
+
+.image {
+  display: block;
+  height: 500px;
+  width: 600px;
+}
+
+.rounded-button {
+  border-radius: 5px;
+  width: 100px;
+}
+
+/* Smaller screens and tablets */
+@media screen and (max-width: 800px) {
+  .container {
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+  form label {
+    display: flex;
+    flex-direction: column;
+  }
+  input {
+    border-radius: 15px;
+  }
+  .image {
+    max-width: 100%;
+    height: auto;
+    display: flex;
+    border-radius: 50px;
+  }
+  .checkbox-grid {
+    display: flex;
+    flex-direction: column;
+    max-width: 100%;
+    padding: 0;
+    margin: 0;
+  }
+  .checklist-two {
+    margin-top: -35px;
+  }
+  .rounded-button {
+    border-radius: 50px;
+    font-size: 25px;
+    background-color: antiquewhite;
+    width: 200px;
+    height: 40px;
+    margin: 2rem;
+    margin-bottom: 0;
+    padding: 0;
+  }
+}
+
+/* Small screens mobile */
+@media screen and (max-width: 800px) {
+  .container {
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+  form label {
+    display: flex;
+    flex-direction: column;
+  }
+  input {
+    border-radius: 15px;
+  }
+  .image {
+    max-width: 100%;
+    height: auto;
+    display: flex;
+    border-radius: 50px;
+  }
+  .checkbox-grid {
+    display: flex;
+    flex-direction: column;
+    max-width: 100%;
+    padding: 0;
+    margin: 0;
+  }
+  .checklist-two {
+    margin-top: -35px;
+  }
+  .rounded-button {
+    border-radius: 50px;
+    font-size: 25px;
+    background-color: antiquewhite;
+    width: 200px;
+    height: 40px;
+    margin: 2rem;
+    margin-bottom: 0;
+    padding: 0;
+  }
+}
