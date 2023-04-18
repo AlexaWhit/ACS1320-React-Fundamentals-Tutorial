@@ -6,22 +6,22 @@
     align-items: baseline;
     padding: 1em;
     padding-top: 1em;
-    background-color: rgb(5, 161, 26);
+    background-color: rgb(5, 80, 16);
     color: #fff;
+    font-size: 20px;
     border: 4px solid pink;
 }
 
 .Title-Subtitle {
-    color: rgba(2, 64, 23, 0.75);
+    color: #fff;
     box-sizing: border-box;
     width: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
-    padding: 0.1em;
     font-weight: bold;
     font-style: italic;
-    font-size: larger;
+    font-size: 20px;
 }
 
 .Title a {

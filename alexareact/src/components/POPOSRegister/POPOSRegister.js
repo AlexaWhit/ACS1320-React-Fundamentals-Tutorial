@@ -46,9 +46,9 @@ function POPOSRegister() {
     };
 
     return (
-        <div className="container">
-            <div className="POPOSRegister">
-                <h2>Register Here for the SFPOPOS Newsletter</h2>
+        <article className="container" aria-labelledby="newsletter-signup-title">
+            <section className="POPOSRegister">
+                <h2 id="newsletter-signup-title">Register Here for the SFPOPOS Newsletter</h2>
                 <form onSubmit={handleSubmit}>
                     <label>
                         First Name:
@@ -67,7 +67,7 @@ function POPOSRegister() {
                         <input type="text" name="postalCode" value={formData.postalCode} onChange={handleInputChange} required />
                     </label>
                     <h3>How do you plan to use SFPOPOS (select all that apply):</h3>
-                    <div className="checkbox-grid">
+                    <fieldset className="checkbox-grid">
                         <div className="checklist-one">
                             <label>
                                 <input type="checkbox" name="meeting" checked={formData.uses.meeting} onChange={handleCheckboxChange} />
@@ -112,14 +112,14 @@ function POPOSRegister() {
                                 Scenic Views
                             </label>
                         </div>
-                    </div>
-                    <button type="submit" className="rounded-button">Submit</button>
+                    </fieldset>
+                    <button type="submit" className="rounded-button" aria-label="Submit newsletter registration">Submit</button>
                 </form>
-            </div>
-            <div>
+            </section>
+            <aside>
                 <img class="image" alt="newsletter" src="https://www.springfieldbucks.org/wp-content/uploads/2022/06/Newsletter.jpg" />
-            </div>
-        </div>
+            </aside>
+        </article>
     )
 }
 

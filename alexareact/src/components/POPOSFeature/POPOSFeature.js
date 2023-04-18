@@ -20,7 +20,12 @@ function getFeature(str) {
 
 function POPOSFeature(props) {
 	const emoji = getFeature(props.name)
-	return <div className="POPOSFeature">{emoji}</div>
-}
+	return (
+		<figure className="POPOSFeature">
+		  <span role="img" aria-label={props.name}>{emoji}</span>
+		  <figcaption className="visually-hidden">{props.name}</figcaption>
+		</figure>
+	  );
+	}
 
 export default POPOSFeature;

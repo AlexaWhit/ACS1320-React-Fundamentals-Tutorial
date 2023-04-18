@@ -12,9 +12,9 @@ function POPOSList() {
 		return inTitle || inAddress
 	}).map((obj) => {
 		const { id, title, address, images, hours } = obj
-	// const spaces = data.map(({ title, address, images, hours }, i) => {
+		// const spaces = data.map(({ title, address, images, hours }, i) => {
 		return (
-			<div className="POPOSList">
+			<section className="POPOSList">
 				<POPOSSpace
 					id={id}
 					key={`${title}-${id}`}
@@ -23,23 +23,36 @@ function POPOSList() {
 					image={images[0]}
 					hours={hours}
 				/>
-			</div>
+			</section>
 		)
 	})
 
 	return (
-		<div className="POPOSList">
-			<form>
-				<input
-					value={query}
-					placeholder="search"
-					onChange={(e) => setQuery(e.target.value)}
-				/>
-				<button type="submit">Submit</button>
+		<section className="POPOSList">
+		  <header>
+			<form role="search" aria-labelledby="search-form-label">
+			  <label htmlFor="search-input" id="search-form-label">
+				Search by Title or Address:
+			  </label>
+			  <input
+				type="text"
+				id="search-input"
+				aria-describedby="search-by-title-or-address"
+				value={query}
+				placeholder="search"
+				onChange={(e) => setQuery(e.target.value)}
+			  />
+			  <span id="search-by-title-or-address" className="visually-hidden">
+				Enter the title or address to search for a POPOS location.
+			  </span>
+			  <button type="submit" aria-label="submit-search">
+				Submit
+			  </button>
 			</form>
-			{spaces}
-		</div>
-	)
+		  </header>
+		  {spaces}
+		</section>
+	  );
 }
 
 export default POPOSList;

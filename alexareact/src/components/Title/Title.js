@@ -5,11 +5,11 @@ import RandomSpace from '../RandomSpace/RandomSpace'
 
 function Title() {
   return (
-    <div className="Title">
+    <section className="Title">
       <header>
         <h1>SFPOPOS</h1>
-        <div className="Title-Subtitle">San Francisco Privately Owned Public Open Spaces</div>
-        <div>
+        <h2 className="Title-Subtitle">San Francisco Privately Owned Public Open Spaces</h2>
+        <nav>
           <NavLink
             className={({ isActive }) => isActive ? "nav-link-active" : "nav-link"}
             to="/">List
@@ -23,10 +23,9 @@ function Title() {
             to="/register">Register
           </NavLink>
           <RandomSpace className="random-space"/>
-        </div>
-
+        </nav>
       </header>
-    </div>
+    </section>
   )
 }
 
